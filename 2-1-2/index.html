@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-sdmx-site/assets/css/style.css?v=20210319011137">
+        <link rel="stylesheet" href="/sdg-sdmx-site/assets/css/style.css?v=20210319180507">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -462,7 +462,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">SDG goal </th>
         <td>
           
             
@@ -476,7 +476,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">SDG target </th>
         <td>
           
             
@@ -490,7 +490,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">SDG indicator </th>
         <td>
           
             
@@ -504,7 +504,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Metadata last updated </th>
         <td>
           
             
@@ -518,7 +518,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definitions </th>
+        <th scope="row">Related indicators </th>
         <td>
           
             
@@ -532,7 +532,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">Custodian agencies </th>
         <td>
           
             
@@ -546,7 +546,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Concepts and definitions </th>
         <td>
           
             
@@ -560,7 +560,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Quality assurance </th>
+        <th scope="row">Data sources </th>
         <td>
           
             
@@ -574,7 +574,77 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comparability with international data/standards </th>
+        <th scope="row">Collection method </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Collection frequency </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data release policy </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data providers </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data compilers </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
         <td>
           
             
@@ -602,7 +672,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Rational and interpretation </th>
+        <th scope="row">Methodology </th>
         <td>
           
             
@@ -616,41 +686,23 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Imputation </th>
         <td>
           
-            
-            
-            
-            
-
             
 
           
         </td>
         </tr>
         
-      
-  
-      
-      
       
   
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Regional aggregates </th>
         <td>
           
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/ONSdigital/sdg-sdmx-data/commit/5b4161914390e4eb74cd274015354dda87b46beb" target="_blank">
-                2021-03-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
-              </a>
             
 
           
@@ -661,6 +713,44 @@ data-event-label="Change to Sources tab"
   
       
       
+      <tr>
+        <th scope="row">Data availability </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
       
   
   
@@ -979,6 +1069,12 @@ data-event-label="Change to Sources tab"
   
   
   
+  
+  
+  
+  
+  
+  
 </table>
 
     </article>
@@ -1085,12 +1181,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-sdmx-site/assets/js/sdg.js?v=20210319011137'></script>
+<script src='/sdg-sdmx-site/assets/js/sdg.js?v=20210319180507'></script>
 
 
     
     
-    <script src="/sdg-sdmx-site/assets/js/custom.js?v=20210319011137"></script><script>
+    <script src="/sdg-sdmx-site/assets/js/custom.js?v=20210319180507"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
