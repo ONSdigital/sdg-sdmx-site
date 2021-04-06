@@ -32,6 +32,10 @@ title: general.site_title
 url: ""
 environment: staging
 
+
+custom_css:
+  - /assets/css/custom.css
+  
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
 create_indicators:
